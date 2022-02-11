@@ -1,0 +1,271 @@
+/*navbar*/
+
+#title{
+    background-color: #ff4c68;
+}
+
+.navbar-brand{
+    font-family: 'ubuntu' sans-serif;
+    font-size: 2em;
+    font-weight: 500;
+    color: white;   
+}
+
+.navbar{
+    padding-left: 0;
+    margin-left: 0;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+
+h1{
+    font-family: 'monsterrat' sans-serif;
+    font-weight: 700;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: white;
+}
+
+h2{
+    font-family: 'monsterrat' sans-serif;
+    font-weight: 700;
+    color: white;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+@media screen and (max-width: 1028px) {
+    h1{
+    text-align: center;
+    }
+}
+
+@media (min-width:1980px) {
+    h1{
+        font-size: 6rem;
+    }    
+}
+
+@media (min-width:1980px) {
+    h2{
+        font-size: 5rem;
+    }    
+}
+
+/*container*/
+
+.maincontainer{
+    padding: 3% 10% 0% 10%;
+ 
+}
+
+.downloadbutton{
+    text-align: center;
+}
+
+@media screen and (min-width:1028px) {
+.downloadbutton {
+    text-align:left;
+}
+}
+
+#btntop{
+
+    margin-left: 3% ;
+}
+
+.phoneimg{
+   
+    margin:0;
+}
+
+.mockup{
+    height: 800px; 
+    padding-top: 50px;
+    padding-bottom: 5%;    
+}
+
+@media screen and (min-width:870px) {
+.mockup{
+    transform:rotate(25deg);
+    -ms-transform:rotate(25deg); /* IE 9 */
+    -moz-transform:rotate(25deg); /* Firefox */
+    -webkit-transform:rotate(25deg); /* Safari and Chrome */
+    -o-transform:rotate(25deg); /* Opera */
+    margin-bottom: -50px; 
+    margin-top: 50px;
+    height: 700px;
+    padding: 0;    
+}
+}
+
+/*features*/
+
+#features{
+background-color: white;
+margin:auto;
+padding: 4% 5%;
+padding-bottom: 15%;
+position: relative;
+}
+
+.featuresh3{
+    font-family: 'Ubuntu' sans-serif;
+    font-weight: 700;
+    font-size: 2rem;    
+}
+
+@media (min-width:1980px) {
+    .featuresh3{
+        font-size: 3rem;
+    }
+    
+}
+
+#featuresicon{
+    font-size: 4rem;
+    color: #ff755d;
+    margin: 1.5rem;
+    padding-top: 3rem;
+}
+
+#featuresicon:hover {
+    color: #ff4c68;
+}
+
+.featuresp{
+    max-width: 70%;
+    margin: auto;
+    margin-top:7%;
+    color: rgb(136, 135, 135);
+    font-family: 'monsterrat' sans-serif;
+    font-weight: 500;
+}
+
+/* Testimonial Section*/
+
+#testimonials{
+    text-align: center;
+    background-color: #ff755d;
+    color: #fff;
+    letter-spacing: .2rem;
+}
+
+.testimonial-text{
+    font-size: 4rem;
+}
+
+.testimonial-image {
+    width: 300px;
+    border-radius: 100%;
+    display: block;
+    margin: 3rem auto 3rem auto;
+}
+
+#press {
+    background-color: #faa292;
+    text-align: center;
+    width: 100%;
+}
+
+.press-logo{
+    width: 17%;
+    margin: 5% 2.5%;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+/*card*/
+
+.card{
+   
+   
+    text-align: center;
+    margin: 50px auto;   
+}
+
+.card-header h3 {
+    font-family: 'Ubuntu' sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    
+}
+
+.card-body p {
+    font-family: 'monsterrat' sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+.h2card{
+    color: #000;
+}
+
+#pricing{
+    text-align: center;    
+}
+
+.pmargin{
+    margin: 27px auto;
+}
+
+.cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 7%;    
+}
+
+
+@media (min-width:1200px){
+    .ctah2{
+        font-size: 6rem;
+    }
+}
+
+#btncta{
+    padding-top: 5%;
+
+}
+
+#btn{
+    margin: auto 2% auto;
+}
+
+@media (min-width:1920px){
+    #btn{
+        font-size: 2rem;
+    }
+}
+
+.icon-social{
+    text-align: center;
+    margin-top: 5%;
+}
+
+.icon{
+    font-size: 1.5rem;
+color: rgb(65, 65, 65);
+margin: 1.5%;
+}
+
+@media (min-width:1920px){
+    .icon {
+        font-size: 4rem;
+    }
+}
+
+.icon:hover {
+    color: #fc2646;
+}
+
+.copyright{
+    text-align: center;
+}
+
+#copyright{
+    margin-top: 2%;
+    color: rgb(165, 165, 165);
+    font-size: 1rem;
+}
