@@ -80,7 +80,7 @@ h2{
 }
 
 .mockup{
-    height: 800px; 
+    width: 100%; 
     padding-top: 50px;
     padding-bottom: 5%;    
 }
@@ -95,6 +95,7 @@ h2{
     margin-bottom: -50px; 
     margin-top: 50px;
     height: 700px;
+    width: auto;
     padding: 0;    
 }
 }
