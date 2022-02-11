@@ -155,6 +155,12 @@ position: relative;
     font-size: 4rem;
 }
 
+@media(max-width:600px){
+    .testimonial-text{
+        font-size: 1.5rem;
+    }
+}
+
 .testimonial-image {
     width: 300px;
     border-radius: 100%;
